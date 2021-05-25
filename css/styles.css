@@ -1,0 +1,496 @@
+.container-fluid {
+  padding: 0 5%;
+}
+
+.navbar {
+  padding: 0;
+}
+
+.nav-item {
+  padding: 0 1rem;
+}
+
+.navTop {
+  background-color: #000;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 500;
+}
+
+body {
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+  font-family: 'Inknut Antiqua', serif;
+  font-weight: 600;
+  color: orange;
+}
+
+h3 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  color: white;
+}
+
+hr {
+  margin: 70px auto;
+  border: none;
+  border-top: 8px dotted black;
+  background: transparent;
+  width: 12%;
+}
+
+.earlyLife-hr {
+  margin-bottom: 0;
+  padding-bottom: 50px;
+}
+
+.solarCity-hr {
+  margin-top: 0;
+  border-top: 8px dotted orange;
+}
+
+.heading-titles {
+  background-color: #000;
+  padding: 34px 0;
+  color: orange;
+  margin-bottom: 0;
+}
+
+.card {
+  margin-top: 5%;
+  padding-top: 20px;
+  background-color: #02475e;
+  color: #fff;
+}
+
+#profilepic {
+  padding: 5% 0;
+  background-color: #0a043c;
+}
+
+#earlyLife .container-fluid {
+  background-color: #ffab73;
+  font-family: sans-serif;
+}
+
+#marsPic .container-fluid {
+  padding: 0;
+  background-color: #000;
+}
+
+.mars-pic {
+  width: 100%;
+}
+
+.elonchild {
+  width: 80%;
+}
+
+.p-earlylife {
+  font-size: 1.2rem;
+  padding: 30px 10px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.solarCityTitle {
+  text-align: left;
+}
+
+#businessCareerSolarCity .container-fluid {
+  padding: 0 10%;
+  background-color: #0a043c;
+}
+
+.solarCityTitle {
+  font-family: 'Inknut Antiqua', serif;
+  font-weight: 600;
+  color: orange;
+}
+
+.solarCityVideo {
+  padding: 0 5%;
+}
+
+.SolarCityText {
+  padding: 0 2%;
+}
+
+.solarCity-card {
+  font-weight: 300;
+}
+
+#businessCareerTesla .container-fluid {}
+
+.teslaTitle {
+  text-align: left;
+  font-family: 'Inknut Antiqua', serif;
+  font-weight: 600;
+  color: #09015f;
+}
+
+.teslaCarousel {
+  padding: 2% 8%;
+}
+
+.teslaCarText {
+  padding: 4% 0;
+}
+
+.TeslaCarPic {
+  width: 83%;
+  height: 90%;
+  /* margin: 10% 0; */
+}
+
+.tesla-p {
+  padding: 0 100px;
+}
+
+.tesla-icon {
+  color: #09015f;
+}
+
+.teslaCarVideo {
+  width: 1240px;
+  height: 620px;
+}
+
+.carouselCaption {
+  color: orange;
+}
+
+.spaceXPositioning {
+  position: relative;
+}
+
+.backgroundPicB4 {
+  position: absolute;
+  width: 100%;
+}
+
+.backgroundPicA4 {
+  position: relative;
+  width: 100%;
+}
+
+.spaceXInfo {
+  position: absolute;
+  color: orange;
+  top: 45%;
+  right: 10%;
+  text-align: center;
+}
+
+.spaceXbtn {
+  border-radius: 40px;
+}
+
+#contactMe {
+  background-color: #000;
+  padding: 3%;
+  line-height: 3;
+  color: orange;
+}
+
+.footer-icons {
+  padding: 0 30px;
+}
+
+/* spacex page */
+#Info {
+  position: relative;
+}
+
+#Info .container-fluid {
+  padding: 0;
+  background-color: #000;
+}
+
+.card1, .card2, .card3 {
+  width: 25%;
+  height: auto;
+  background-color: transparent;
+  line-height: 2;
+}
+
+.card1 {
+  position: absolute;
+  top: 5%;
+  left: 4%;
+}
+
+.card2 {
+  position: absolute;
+  top: 33%;
+  right: 4%;
+}
+
+.card3 {
+  position: absolute;
+  top: 70%;
+  left: 4%;
+}
+
+#starship {
+  position: relative;
+}
+
+#starship .container-fluid {
+  padding: 0;
+  background-color: #000;
+}
+
+.starship-pic {
+  width: 100%;
+}
+
+.starship-text {
+  position: absolute;
+  text-align: center;
+  top: 3%;
+  left: 39%;
+  font-weight: 300;
+}
+
+.card4, .card5 {
+  width: 25%;
+  height: auto;
+  background-color: transparent;
+  line-height: 2;
+}
+
+.card4 {
+  position: absolute;
+  top: 5%;
+  left: 4%;
+}
+
+.card5 {
+  position: absolute;
+  top: 15%;
+  right: 4%;
+}
+
+.starship-btn {
+  position: absolute;
+  bottom: 5%;
+  left: 44%;
+  border-radius: 40px;
+}
+
+#Uses {
+  background-color: #000;
+}
+
+.uses-content {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 30px 50px;
+  color: orange;
+}
+
+.uses-p {
+  color: #fff;
+}
+
+.uses-icon {
+  margin-bottom: 1rem;
+}
+
+#starshipVideo .container-fluid {
+  padding: 0;
+  background-color: #000;
+}
+
+/* MEDIA QUERIES FOR BOTH PAGES */
+@media (max-width: 720px) {
+  .spaceXInfo {
+    font-size: 0.5rem;
+  }
+}
+
+@media (max-width: 1400px) {
+  .card1, .card2, .card3 {
+    width: 25%;
+    height: auto;
+    background-color: transparent;
+    line-height: 2;
+    font-size: 0.7rem;
+  }
+}
+
+@media (max-width: 1050px) {
+  .card3 {
+    position: absolute;
+    top: 50%;
+    left: 4%;
+  }
+
+  .card4 {
+    position: absolute;
+    top: 5%;
+    left: 4%;
+    font-size: 0.8rem;
+  }
+
+  .card5 {
+    position: absolute;
+    top: 15%;
+    right: 4%;
+    font-size: 0.8rem;
+  }
+
+  .starship-btn {
+    bottom: 5%;
+    left: 41%;
+  }
+}
+
+@media (max-width: 764px) {
+  .card1, .card2, .card3 {
+    width: 25%;
+    height: auto;
+    background-color: transparent;
+    line-height: 2;
+    font-size: 0.5rem;
+  }
+}
+
+@media (max-width: 890px) {
+  .card4 {
+    position: absolute;
+    top: 2%;
+    left: 4%;
+    font-size: 0.7rem;
+  }
+
+  .card5 {
+    position: absolute;
+    top: 10%;
+    right: 4%;
+    font-size: 0.7rem;
+  }
+
+  .starship-btn {
+    bottom: 3%;
+    left: 41%;
+  }
+
+  .starship-text {
+    position: absolute;
+    text-align: center;
+    top: 3%;
+    left: 36%;
+  }
+}
+
+@media (max-width: 600px) {
+  .card1 {
+    position: absolute;
+    top: 1%;
+    left: 4%;
+    font-size: 0.4rem;
+  }
+
+  .card3 {
+    position: absolute;
+    top: 41%;
+    left: 4%;
+    font-size: 0.4rem;
+  }
+}
+
+@media(max-width:790px) {
+  .card4 {
+    position: absolute;
+    top: 1%;
+    left: 4%;
+    font-size: 0.65rem;
+  }
+
+  .card5 {
+    position: absolute;
+    top: 7%;
+    right: 4%;
+    font-size: 0.65rem;
+  }
+
+  .starship-btn {
+    bottom: 3%;
+    left: 39%;
+  }
+}
+
+@media(max-width:720px) {
+  .card4 {
+    position: absolute;
+    top: 1%;
+    left: 4%;
+    font-size: 0.55rem;
+  }
+
+  .card5 {
+    position: absolute;
+    top: 5%;
+    right: 4%;
+    font-size: 0.55rem;
+  }
+
+  .starship-btn {
+    bottom: 2%;
+    left: 38%;
+  }
+
+  .starship-text {
+    position: absolute;
+    text-align: center;
+    top: 3%;
+    left: 34%;
+  }
+}
+
+@media(max-width:630px) {
+  .card4 {
+    position: absolute;
+    top: 1%;
+    left: 4%;
+    font-size: 0.4rem;
+  }
+
+  .card5 {
+    position: absolute;
+    top: 4%;
+    right: 4%;
+    font-size: 0.4rem;
+  }
+
+  .starship-btn {
+    bottom: 2%;
+    left: 37%;
+  }
+
+  .starship-text {
+    position: absolute;
+    text-align: center;
+    top: 3%;
+    left: 36%;
+    font-size: 1.5rem;
+  }
+}
+
+@media(max-width:516px) {
+  .starship-btn {
+    left: 33%;
+    bottom: 2%;
+  }
+
+  .starship-text {
+    position: absolute;
+    text-align: center;
+    top: 3%;
+    left: 35%;
+    font-size: 1.3rem;
+  }
+}
